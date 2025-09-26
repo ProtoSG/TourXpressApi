@@ -1,0 +1,1963 @@
+!SESSION 2025-09-06 14:57:27.900 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=24.0.2
+java.vendor=Arch Linux
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/pogo/work/api
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:31.046
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:31.222
+!MESSAGE Started org.eclipse.buildship.core 135ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:31.223
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:31.946
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:32.099
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:32.109
+!MESSAGE Initializing Java Language Server 1.49.0.202507311558
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:33.956
+!MESSAGE ProjectRegistryRefreshJob finished 2731ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:34.039
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:34.042
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:34.092
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:34.093
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:34.152
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:34.386
+!MESSAGE Workspace initialized in 296ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:34.394
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:34.473
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:34.627
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2025-09-06 14:57:36.158
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:36.221
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:36.531
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:36.536
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:36.956
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:36.968
+!MESSAGE The value of the field Trip.TripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:36.970
+!MESSAGE The value of the field Trip.RutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:36.971
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:36.975
+!MESSAGE The value of the field Trip.BoardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:36.976
+!MESSAGE The value of the field Trip.BoardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:36.980
+!MESSAGE The value of the field Trip.DisembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:36.981
+!MESSAGE The value of the field Trip.DisembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:36.986
+!MESSAGE The value of the field Trip.State is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:36.991
+!MESSAGE The value of the field Trip.ServiceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:36.993
+!MESSAGE The value of the field Trip.BusID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:36.995
+!MESSAGE The value of the field Trip.TripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:36.996
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:37.007
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:37.021
+!MESSAGE Validated 1. Took 194 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:54.351
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:54.772
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:54.773
+!MESSAGE The value of the field Trip.TripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:54.775
+!MESSAGE The value of the field Trip.RutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:54.775
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:54.776
+!MESSAGE The value of the field Trip.BoardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:54.777
+!MESSAGE The value of the field Trip.BoardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:54.778
+!MESSAGE The value of the field Trip.DisembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:54.779
+!MESSAGE The value of the field Trip.DisembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:54.781
+!MESSAGE The value of the field Trip.State is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:54.781
+!MESSAGE The value of the field Trip.ServiceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:54.782
+!MESSAGE The value of the field Trip.BusID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:54.782
+!MESSAGE The value of the field Trip.TripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:54.783
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:54.784
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:54.785
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:56.490
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:56.962
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:56.963
+!MESSAGE The value of the field Trip.TripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:56.964
+!MESSAGE The value of the field Trip.RutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:56.965
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:56.967
+!MESSAGE The value of the field Trip.BoardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:56.968
+!MESSAGE The value of the field Trip.BoardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:56.969
+!MESSAGE The value of the field Trip.DisembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:56.971
+!MESSAGE The value of the field Trip.DisembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:56.972
+!MESSAGE The value of the field Trip.State is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:56.973
+!MESSAGE The value of the field Trip.ServiceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:56.973
+!MESSAGE The value of the field Trip.BusID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:56.974
+!MESSAGE The value of the field Trip.TripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:56.975
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:56.975
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:57:56.977
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:11.179
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:11.655
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:11.656
+!MESSAGE The value of the field Trip.TripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:11.657
+!MESSAGE The value of the field Trip.RutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:11.658
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:11.659
+!MESSAGE The value of the field Trip.BoardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:11.659
+!MESSAGE The value of the field Trip.BoardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:11.660
+!MESSAGE The value of the field Trip.DisembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:11.660
+!MESSAGE The value of the field Trip.DisembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:11.661
+!MESSAGE The value of the field Trip.State is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:11.661
+!MESSAGE The value of the field Trip.ServiceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:11.662
+!MESSAGE The value of the field Trip.BusID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:11.662
+!MESSAGE The value of the field Trip.TripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:11.663
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:11.663
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:11.664
+!MESSAGE Validated 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:15.165
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:15.475
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:15.945
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:15.946
+!MESSAGE The value of the field Trip.TripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:15.947
+!MESSAGE The value of the field Trip.RutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:15.948
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:15.949
+!MESSAGE The value of the field Trip.BoardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:15.950
+!MESSAGE The value of the field Trip.BoardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:15.951
+!MESSAGE The value of the field Trip.DisembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:15.952
+!MESSAGE The value of the field Trip.DisembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:15.953
+!MESSAGE The value of the field Trip.State is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:15.953
+!MESSAGE The value of the field Trip.ServiceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:15.954
+!MESSAGE The value of the field Trip.BusID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:15.955
+!MESSAGE The value of the field Trip.TripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:15.955
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:15.956
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 14:58:15.957
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:11.555
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:12.018
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:12.019
+!MESSAGE The value of the field Trip.TripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:12.019
+!MESSAGE The value of the field Trip.RutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:12.020
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:12.021
+!MESSAGE The value of the field Trip.BoardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:12.021
+!MESSAGE The value of the field Trip.BoardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:12.022
+!MESSAGE The value of the field Trip.DisembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:12.022
+!MESSAGE The value of the field Trip.DisembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:12.023
+!MESSAGE The value of the field Trip.State is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:12.023
+!MESSAGE The value of the field Trip.ServiceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:12.023
+!MESSAGE The value of the field Trip.BusID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:12.023
+!MESSAGE The value of the field Trip.TripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:12.024
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:12.024
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:12.025
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:38.131
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:38.552
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:38.553
+!MESSAGE The value of the field Trip.TripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:38.554
+!MESSAGE The value of the field Trip.RutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:38.555
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:38.556
+!MESSAGE The value of the field Trip.BoardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:38.557
+!MESSAGE The value of the field Trip.BoardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:38.558
+!MESSAGE The value of the field Trip.DisembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:38.559
+!MESSAGE The value of the field Trip.DisembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:38.559
+!MESSAGE The value of the field Trip.State is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:38.560
+!MESSAGE The value of the field Trip.ServiceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:38.561
+!MESSAGE The value of the field Trip.BusID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:38.562
+!MESSAGE The value of the field Trip.TripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:38.563
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:38.564
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:38.565
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:41.801
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:42.313
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:42.781
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:42.782
+!MESSAGE The value of the field Trip.TripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:42.783
+!MESSAGE The value of the field Trip.RutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:42.784
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:42.786
+!MESSAGE The value of the field Trip.BoardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:42.787
+!MESSAGE The value of the field Trip.BoardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:42.788
+!MESSAGE The value of the field Trip.DisembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:42.789
+!MESSAGE The value of the field Trip.DisembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:42.790
+!MESSAGE The value of the field Trip.State is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:42.790
+!MESSAGE The value of the field Trip.ServiceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:42.791
+!MESSAGE The value of the field Trip.BusID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:42.792
+!MESSAGE The value of the field Trip.TripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:42.793
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:42.793
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:42.794
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:52.316
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:52.788
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:52.789
+!MESSAGE The value of the field Trip.TripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:52.790
+!MESSAGE The value of the field Trip.RutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:52.791
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:52.792
+!MESSAGE The value of the field Trip.BoardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:52.793
+!MESSAGE The value of the field Trip.BoardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:52.794
+!MESSAGE The value of the field Trip.DisembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:52.794
+!MESSAGE The value of the field Trip.DisembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:52.795
+!MESSAGE The value of the field Trip.State is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:52.796
+!MESSAGE The value of the field Trip.ServiceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:52.797
+!MESSAGE The value of the field Trip.BusID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:52.797
+!MESSAGE The value of the field Trip.TripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:52.797
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:52.798
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:52.804
+!MESSAGE Validated 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:53.546
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:54.017
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:54.018
+!MESSAGE The value of the field Trip.TripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:54.019
+!MESSAGE The value of the field Trip.RutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:54.020
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:54.020
+!MESSAGE The value of the field Trip.BoardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:54.021
+!MESSAGE The value of the field Trip.BoardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:54.022
+!MESSAGE The value of the field Trip.DisembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:54.023
+!MESSAGE The value of the field Trip.DisembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:54.023
+!MESSAGE The value of the field Trip.State is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:54.024
+!MESSAGE The value of the field Trip.ServiceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:54.025
+!MESSAGE The value of the field Trip.BusID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:54.025
+!MESSAGE The value of the field Trip.TripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:54.026
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:54.027
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:00:54.028
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:06.842
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:07.312
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:07.313
+!MESSAGE The value of the field Trip.TripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:07.314
+!MESSAGE The value of the field Trip.RutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:07.315
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:07.316
+!MESSAGE The value of the field Trip.BoardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:07.317
+!MESSAGE The value of the field Trip.BoardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:07.317
+!MESSAGE The value of the field Trip.DisembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:07.318
+!MESSAGE The value of the field Trip.DisembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:07.339
+!MESSAGE The value of the field Trip.State is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:07.340
+!MESSAGE The value of the field Trip.ServiceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:07.341
+!MESSAGE The value of the field Trip.BusID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:07.341
+!MESSAGE The value of the field Trip.TripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:07.342
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:07.343
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:07.344
+!MESSAGE Validated 1. Took 50 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:21.506
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:21.669
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:21.729
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:22.130
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:22.131
+!MESSAGE The value of the field Trip.tripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:22.131
+!MESSAGE The value of the field Trip.RutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:22.132
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:22.134
+!MESSAGE The value of the field Trip.BoardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:22.134
+!MESSAGE The value of the field Trip.BoardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:22.135
+!MESSAGE The value of the field Trip.DisembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:22.136
+!MESSAGE The value of the field Trip.DisembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:22.137
+!MESSAGE The value of the field Trip.State is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:22.137
+!MESSAGE The value of the field Trip.ServiceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:22.138
+!MESSAGE The value of the field Trip.BusID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:22.138
+!MESSAGE The value of the field Trip.TripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:22.139
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:22.139
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:22.140
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:22.976
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:23.030
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:23.034
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:23.497
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:23.498
+!MESSAGE The value of the field Trip.tripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:23.500
+!MESSAGE The value of the field Trip.rutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:23.501
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:23.502
+!MESSAGE The value of the field Trip.BoardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:23.503
+!MESSAGE The value of the field Trip.BoardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:23.503
+!MESSAGE The value of the field Trip.DisembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:23.504
+!MESSAGE The value of the field Trip.DisembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:23.505
+!MESSAGE The value of the field Trip.State is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:23.506
+!MESSAGE The value of the field Trip.ServiceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:23.506
+!MESSAGE The value of the field Trip.BusID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:23.506
+!MESSAGE The value of the field Trip.TripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:23.507
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:23.507
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:23.507
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:25.131
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:25.599
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:25.600
+!MESSAGE The value of the field Trip.tripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:25.601
+!MESSAGE The value of the field Trip.rutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:25.603
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:25.604
+!MESSAGE The value of the field Trip.oardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:25.604
+!MESSAGE The value of the field Trip.BoardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:25.605
+!MESSAGE The value of the field Trip.DisembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:25.605
+!MESSAGE The value of the field Trip.DisembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:25.605
+!MESSAGE The value of the field Trip.State is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:25.606
+!MESSAGE The value of the field Trip.ServiceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:25.607
+!MESSAGE The value of the field Trip.BusID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:25.608
+!MESSAGE The value of the field Trip.TripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:25.608
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:25.609
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:25.609
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:25.738
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:25.784
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:26.251
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:26.253
+!MESSAGE The value of the field Trip.tripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:26.254
+!MESSAGE The value of the field Trip.rutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:26.254
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:26.255
+!MESSAGE The value of the field Trip.boardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:26.255
+!MESSAGE The value of the field Trip.BoardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:26.256
+!MESSAGE The value of the field Trip.DisembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:26.257
+!MESSAGE The value of the field Trip.DisembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:26.258
+!MESSAGE The value of the field Trip.State is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:26.259
+!MESSAGE The value of the field Trip.ServiceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:26.259
+!MESSAGE The value of the field Trip.BusID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:26.260
+!MESSAGE The value of the field Trip.TripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:26.261
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:26.261
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:26.261
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:27.875
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:28.338
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:28.339
+!MESSAGE The value of the field Trip.tripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:28.340
+!MESSAGE The value of the field Trip.rutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:28.340
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:28.341
+!MESSAGE The value of the field Trip.boardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:28.342
+!MESSAGE The value of the field Trip.boardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:28.343
+!MESSAGE The value of the field Trip.DisembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:28.344
+!MESSAGE The value of the field Trip.DisembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:28.344
+!MESSAGE The value of the field Trip.State is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:28.345
+!MESSAGE The value of the field Trip.ServiceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:28.345
+!MESSAGE The value of the field Trip.BusID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:28.346
+!MESSAGE The value of the field Trip.TripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:28.347
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:28.347
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:28.348
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:29.500
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:29.913
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:29.914
+!MESSAGE The value of the field Trip.tripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:29.914
+!MESSAGE The value of the field Trip.rutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:29.915
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:29.915
+!MESSAGE The value of the field Trip.boardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:29.915
+!MESSAGE The value of the field Trip.boardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:29.915
+!MESSAGE The value of the field Trip.disembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:29.916
+!MESSAGE The value of the field Trip.DisembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:29.916
+!MESSAGE The value of the field Trip.State is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:29.916
+!MESSAGE The value of the field Trip.ServiceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:29.917
+!MESSAGE The value of the field Trip.BusID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:29.917
+!MESSAGE The value of the field Trip.TripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:29.918
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:29.918
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:29.919
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:32.811
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:33.274
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:33.275
+!MESSAGE The value of the field Trip.tripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:33.276
+!MESSAGE The value of the field Trip.rutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:33.276
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:33.277
+!MESSAGE The value of the field Trip.boardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:33.278
+!MESSAGE The value of the field Trip.boardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:33.279
+!MESSAGE The value of the field Trip.disembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:33.280
+!MESSAGE The value of the field Trip.disembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:33.280
+!MESSAGE The value of the field Trip.State is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:33.280
+!MESSAGE The value of the field Trip.ServiceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:33.280
+!MESSAGE The value of the field Trip.BusID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:33.280
+!MESSAGE The value of the field Trip.TripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:33.281
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:33.281
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:33.281
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:36.277
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:36.742
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:36.743
+!MESSAGE The value of the field Trip.tripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:36.744
+!MESSAGE The value of the field Trip.rutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:36.745
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:36.746
+!MESSAGE The value of the field Trip.boardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:36.747
+!MESSAGE The value of the field Trip.boardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:36.748
+!MESSAGE The value of the field Trip.disembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:36.748
+!MESSAGE The value of the field Trip.disembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:36.749
+!MESSAGE The value of the field Trip.state is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:36.749
+!MESSAGE The value of the field Trip.ServiceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:36.749
+!MESSAGE The value of the field Trip.BusID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:36.750
+!MESSAGE The value of the field Trip.TripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:36.750
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:36.751
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:36.752
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:37.095
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:37.557
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:37.557
+!MESSAGE The value of the field Trip.tripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:37.558
+!MESSAGE The value of the field Trip.rutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:37.559
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:37.560
+!MESSAGE The value of the field Trip.boardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:37.560
+!MESSAGE The value of the field Trip.boardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:37.560
+!MESSAGE The value of the field Trip.disembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:37.561
+!MESSAGE The value of the field Trip.disembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:37.561
+!MESSAGE The value of the field Trip.state is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:37.561
+!MESSAGE The value of the field Trip.serviceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:37.562
+!MESSAGE The value of the field Trip.BusID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:37.562
+!MESSAGE The value of the field Trip.TripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:37.562
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:37.562
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:37.563
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:37.966
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:38.430
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:38.431
+!MESSAGE The value of the field Trip.tripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:38.432
+!MESSAGE The value of the field Trip.rutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:38.432
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:38.434
+!MESSAGE The value of the field Trip.boardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:38.435
+!MESSAGE The value of the field Trip.boardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:38.436
+!MESSAGE The value of the field Trip.disembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:38.437
+!MESSAGE The value of the field Trip.disembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:38.437
+!MESSAGE The value of the field Trip.state is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:38.438
+!MESSAGE The value of the field Trip.serviceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:38.438
+!MESSAGE The value of the field Trip.busID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:38.439
+!MESSAGE The value of the field Trip.TripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:38.439
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:38.439
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:38.440
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:39.190
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:39.653
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:39.653
+!MESSAGE The value of the field Trip.tripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:39.654
+!MESSAGE The value of the field Trip.rutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:39.655
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:39.655
+!MESSAGE The value of the field Trip.boardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:39.655
+!MESSAGE The value of the field Trip.boardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:39.656
+!MESSAGE The value of the field Trip.disembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:39.656
+!MESSAGE The value of the field Trip.disembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:39.656
+!MESSAGE The value of the field Trip.state is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:39.656
+!MESSAGE The value of the field Trip.serviceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:39.656
+!MESSAGE The value of the field Trip.busID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:39.657
+!MESSAGE The value of the field Trip.tripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:39.657
+!MESSAGE The value of the field Trip.SeatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:39.657
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:39.658
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:40.473
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:40.882
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:40.883
+!MESSAGE The value of the field Trip.tripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:40.884
+!MESSAGE The value of the field Trip.rutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:40.884
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:40.884
+!MESSAGE The value of the field Trip.boardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:40.884
+!MESSAGE The value of the field Trip.boardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:40.884
+!MESSAGE The value of the field Trip.disembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:40.885
+!MESSAGE The value of the field Trip.disembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:40.885
+!MESSAGE The value of the field Trip.state is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:40.885
+!MESSAGE The value of the field Trip.serviceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:40.885
+!MESSAGE The value of the field Trip.busID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:40.885
+!MESSAGE The value of the field Trip.tripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:40.886
+!MESSAGE The value of the field Trip.seatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:40.886
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:40.886
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:43.251
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:43.714
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:43.715
+!MESSAGE The value of the field Trip.tripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:43.717
+!MESSAGE The value of the field Trip.rutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:43.717
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:43.718
+!MESSAGE The value of the field Trip.boardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:43.719
+!MESSAGE The value of the field Trip.boardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:43.720
+!MESSAGE The value of the field Trip.disembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:43.721
+!MESSAGE The value of the field Trip.disembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:43.722
+!MESSAGE The value of the field Trip.state is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:43.722
+!MESSAGE The value of the field Trip.serviceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:43.723
+!MESSAGE The value of the field Trip.busID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:43.723
+!MESSAGE The value of the field Trip.tripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:43.723
+!MESSAGE The value of the field Trip.seatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:43.723
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:43.724
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:43.897
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:44.305
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:44.306
+!MESSAGE The value of the field Trip.tripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:44.307
+!MESSAGE The value of the field Trip.rutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:44.307
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:44.307
+!MESSAGE The value of the field Trip.boardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:44.308
+!MESSAGE The value of the field Trip.boardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:44.308
+!MESSAGE The value of the field Trip.disembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:44.308
+!MESSAGE The value of the field Trip.disembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:44.308
+!MESSAGE The value of the field Trip.state is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:44.308
+!MESSAGE The value of the field Trip.serviceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:44.308
+!MESSAGE The value of the field Trip.busID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:44.308
+!MESSAGE The value of the field Trip.tripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:44.308
+!MESSAGE The value of the field Trip.seatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:44.309
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:44.309
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:48.088
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:48.549
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:48.550
+!MESSAGE The value of the field Trip.tripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:48.551
+!MESSAGE The value of the field Trip.rutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:48.551
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:48.551
+!MESSAGE The value of the field Trip.boardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:48.551
+!MESSAGE The value of the field Trip.boardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:48.551
+!MESSAGE The value of the field Trip.disembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:48.552
+!MESSAGE The value of the field Trip.disembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:48.552
+!MESSAGE The value of the field Trip.state is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:48.552
+!MESSAGE The value of the field Trip.serviceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:48.552
+!MESSAGE The value of the field Trip.busID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:48.553
+!MESSAGE The value of the field Trip.tripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:48.553
+!MESSAGE The value of the field Trip.seatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:48.553
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:48.554
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:51.991
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:52.316
+!MESSAGE Reconciled 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:52.394
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:52.786
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:52.786
+!MESSAGE 2 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:52.787
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:53.209
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:53.678
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:53.679
+!MESSAGE The value of the field Trip.tripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:53.681
+!MESSAGE The value of the field Trip.rutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:53.682
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:53.683
+!MESSAGE The value of the field Trip.boardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:53.684
+!MESSAGE The value of the field Trip.boardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:53.685
+!MESSAGE The value of the field Trip.disembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:53.685
+!MESSAGE The value of the field Trip.disembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:53.686
+!MESSAGE The value of the field Trip.state is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:53.687
+!MESSAGE The value of the field Trip.serviceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:53.688
+!MESSAGE The value of the field Trip.busID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:53.692
+!MESSAGE The value of the field Trip.tripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:53.693
+!MESSAGE The value of the field Trip.seatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:53.693
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:01:53.694
+!MESSAGE Validated 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:25.294
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:25.454
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:25.629
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:26.044
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:26.045
+!MESSAGE The value of the field Trip.tripID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:26.050
+!MESSAGE The value of the field Trip.rutaID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:26.051
+!MESSAGE The value of the field Trip.departureDate is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:26.052
+!MESSAGE The value of the field Trip.boardingTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:26.053
+!MESSAGE The value of the field Trip.boardingTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:26.054
+!MESSAGE The value of the field Trip.disembarkationTime is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:26.054
+!MESSAGE The value of the field Trip.disembarkationTerminalID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:26.054
+!MESSAGE The value of the field Trip.state is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:26.055
+!MESSAGE The value of the field Trip.serviceID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:26.055
+!MESSAGE The value of the field Trip.busID is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:26.055
+!MESSAGE The value of the field Trip.tripPrice is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:26.055
+!MESSAGE The value of the field Trip.seatsAvailable is not used is of type UnusedPrivateField
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:26.055
+!MESSAGE 13 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:26.056
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:31.487
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:31.902
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:31.902
+!MESSAGE 1 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:31.903
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:32.693
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:33.097
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:33.560
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:33.561
+!MESSAGE 1 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:33.561
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:33.651
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:34.098
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:34.099
+!MESSAGE 1 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:02:34.101
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:33.871
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:33.929
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:34.401
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:34.403
+!MESSAGE The declared package "" does not match the expected package "com.TourXpress.api.domain" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:34.404
+!MESSAGE 5 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:34.405
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:35.066
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:35.530
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:35.531
+!MESSAGE 1 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:35.532
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:36.210
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:36.624
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:36.625
+!MESSAGE The declared package "" does not match the expected package "com.TourXpress.api.domain" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:36.625
+!MESSAGE 2 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:36.626
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:37.028
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:37.494
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:37.494
+!MESSAGE 1 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:37.495
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:40.555
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:40.615
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:41.078
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:41.078
+!MESSAGE The declared package "" does not match the expected package "com.TourXpress.api.domain" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:41.079
+!MESSAGE 5 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:41.079
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:41.477
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:41.941
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:41.942
+!MESSAGE 1 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:15:41.942
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:16:24.336
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:16:24.800
+!MESSAGE begin problem for /ApiApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:16:24.800
+!MESSAGE 1 problems reported for /ApiApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:16:24.801
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:02.402
+!MESSAGE >> shutdown
+!SESSION 2025-09-06 15:21:17.170 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=24.0.2
+java.vendor=Arch Linux
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/pogo/work/api
+
+!ENTRY org.eclipse.core.resources 4 567 2025-09-06 15:21:18.955
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2025-09-06 15:21:18.955
+!MESSAGE Could not read metadata for 'jdt.ls-java-project'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/jdt.ls-java-project)[567]: java.lang.Exception: The project description file (.project) for 'jdt.ls-java-project' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:1011)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:1004)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:983)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:825)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1689)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2677)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2369)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:591)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:257)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:184)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:565)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:826)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:768)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1066)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:394)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:643)
+	at org.eclipse.osgi.container.Module.start(Module.java:500)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:622)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:353)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:503)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:438)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:195)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3006)
+	at java.base/java.lang.Class.getConstructor0(Class.java:3211)
+	at java.base/java.lang.Class.getConstructor(Class.java:2201)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:808)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:753)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1066)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:394)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:643)
+	at org.eclipse.osgi.container.Module.start(Module.java:500)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:622)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:353)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:521)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:438)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:195)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3006)
+	at java.base/java.lang.Class.getConstructor0(Class.java:3211)
+	at java.base/java.lang.Class.getConstructor(Class.java:2201)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:808)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:753)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1066)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:394)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:643)
+	at org.eclipse.osgi.container.Module.start(Module.java:500)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2110)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:146)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2101)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2043)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2003)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1915)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2025-09-06 15:21:18.960
+!MESSAGE The project description file (.project) for 'jdt.ls-java-project' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'jdt.ls-java-project' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:1011)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:1004)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:983)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:825)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1689)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2677)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2369)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:591)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:257)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:184)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:565)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:826)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:768)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1066)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:394)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:643)
+	at org.eclipse.osgi.container.Module.start(Module.java:500)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:622)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:353)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:503)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:438)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:195)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3006)
+	at java.base/java.lang.Class.getConstructor0(Class.java:3211)
+	at java.base/java.lang.Class.getConstructor(Class.java:2201)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:808)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:753)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1066)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:394)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:643)
+	at org.eclipse.osgi.container.Module.start(Module.java:500)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:622)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:353)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:521)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:438)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:195)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3006)
+	at java.base/java.lang.Class.getConstructor0(Class.java:3211)
+	at java.base/java.lang.Class.getConstructor(Class.java:2201)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:808)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:753)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1066)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:394)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:643)
+	at org.eclipse.osgi.container.Module.start(Module.java:500)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2110)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:146)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2101)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2043)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2003)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1915)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:19.924
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:20.100
+!MESSAGE Started org.eclipse.buildship.core 134ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:20.107
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:20.682
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:20.767
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:20.780
+!MESSAGE Initializing Java Language Server 1.49.0.202507311558
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:22.855
+!MESSAGE ProjectRegistryRefreshJob finished 2746ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:22.930
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:22.932
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:22.976
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:22.992
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:23.046
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:23.161
+!MESSAGE Workspace initialized in 183ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:23.168
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2025-09-06 15:21:23.617
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:23.651
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:23.652
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:24.046
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:25.499
+!MESSAGE begin problem for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:25.512
+!MESSAGE 1 problems reported for /Trip.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:25.525
+!MESSAGE Validated 1. Took 874 ms
+
+!ENTRY org.eclipse.jdt.core 4 969 2025-09-06 15:21:37.514
+!MESSAGE   does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:41.258
+!MESSAGE Parent process stopped running, forcing server exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:41.259
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:41.260
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:21:41.268
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-09-06 15:21:41.878
+!MESSAGE The workspace will exit with unsaved changes in this session.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:22:02.166
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:22:02.176
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:22:02.225
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-06 15:22:02.236
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2025-09-07 19:26:20.817 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=24.0.2
+java.vendor=Arch Linux
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/pogo/work/api
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:22.938
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:23.020
+!MESSAGE Started org.eclipse.buildship.core 56ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:23.020
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:23.309
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:23.379
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:23.383
+!MESSAGE Initializing Java Language Server 1.49.0.202507311558
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:24.990
+!MESSAGE ProjectRegistryRefreshJob finished 1968ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:25.042
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:25.043
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:25.072
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:25.076
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:25.136
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:25.216
+!MESSAGE Workspace initialized in 143ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:25.228
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2025-09-07 19:26:25.526
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:25.541
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:25.542
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:25.970
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:26.678
+!MESSAGE begin problem for /Terminal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:26.681
+!MESSAGE 1 problems reported for /Terminal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:26.689
+!MESSAGE Validated 1. Took 117 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:31.147
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:31.617
+!MESSAGE begin problem for /Terminal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:31.619
+!MESSAGE 1 problems reported for /Terminal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:31.620
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:32.381
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:32.855
+!MESSAGE begin problem for /Terminal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:32.856
+!MESSAGE 1 problems reported for /Terminal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:26:32.857
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.core 4 969 2025-09-07 19:26:47.222
+!MESSAGE   does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:29:25.721
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:29:25.727
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:29:25.780
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-09-07 19:29:25.823
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
