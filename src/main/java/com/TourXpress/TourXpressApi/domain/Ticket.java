@@ -43,25 +43,20 @@ public class Ticket {
   @Column(name = "fecha_compra")
   private LocalDateTime pucharseDate;
 
-  public Ticket(Integer ticketID, Trip trip, Seat seat, Transaction transaction, Double subtotal,
-      LocalDateTime pucharseDate) {
-    this.ticketID = ticketID;
-    this.trip = trip;
-    this.seat = seat;
-    this.transaction = transaction;
-    this.subtotal = subtotal;
-    this.pucharseDate = pucharseDate;
-  }
-
-  public Ticket() {
-  }
-
   public Integer getTicketID() {
     return ticketID;
   }
 
   public void setTicketID(Integer ticketID) {
     this.ticketID = ticketID;
+  }
+
+  public Passenger getPassenger() {
+    return passenger;
+  }
+
+  public void setPassenger(Passenger passenger) {
+    this.passenger = passenger;
   }
 
   public Trip getTrip() {
@@ -102,6 +97,19 @@ public class Ticket {
 
   public void setPucharseDate(LocalDateTime pucharseDate) {
     this.pucharseDate = pucharseDate;
+  }
+
+  public Ticket(Integer ticketID, Trip trip, Seat seat, Transaction transaction, Double subtotal,
+      LocalDateTime pucharseDate) {
+    this.ticketID = ticketID;
+    this.trip = trip;
+    this.seat = seat;
+    this.transaction = transaction;
+    this.subtotal = subtotal;
+    this.pucharseDate = pucharseDate;
+  }
+
+  public Ticket() {
   }
 
 }
