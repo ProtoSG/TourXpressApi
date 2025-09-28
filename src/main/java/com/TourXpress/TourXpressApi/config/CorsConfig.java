@@ -1,5 +1,6 @@
 package com.TourXpress.TourXpressApi.config;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.cors.CorsConfiguration;
@@ -11,10 +12,13 @@ import java.util.List;
 @Configuration
 public class CorsConfig {
 
+    @Value("${frontend.url}")
+    private String frontendUrl;
+
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
       CorsConfiguration cfg = new CorsConfiguration();
-      cfg.setAllowedOriginPatterns(List.of("http://localhost:4200"));
+      cfg.setAllowedOriginPatterns(List.of(frontendUrl));
       cfg.setAllowedMethods(List.of("GET","POST","PUT","DELETE","OPTIONS"));
       cfg.setAllowedHeaders(List.of("*"));
       cfg.setAllowCredentials(true);
